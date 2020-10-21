@@ -1,0 +1,20 @@
+.imageCard{
+    width: 313px;
+    height: 216px;
+    /* padding: 0px 12px; */
+    /* width:313px;
+    height: 176px;
+    padding: 12px; */
+    /* background-color: white; */
+    margin-bottom: 48px;
+}
+.imageCard figure{
+    width:313px;
+    height: 176px;
+    margin-bottom: 16px;
+}
+.imageCard figure img{
+    width:313px;
+    height: 176px;
+
+}
