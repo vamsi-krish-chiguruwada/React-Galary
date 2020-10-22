@@ -1,0 +1,62 @@
+.NavLinkUl li p:hover {
+  color: #3399cc;
+}
+
+.NavLinkUl {
+  list-style-type: none;
+  display: flex;
+}
+.NavLinkUl li p {
+  font-size: 1.2rem;
+  color: #666666;
+  margin-right: 30px;
+}
+.NavLinkUl li p {
+  display: inline-block;
+  padding: 8px;
+  border-bottom: 4px solid transparent;
+  transition: 0.3s;
+}
+
+.Photos:hover, .Photos{
+  border-bottom: 4px solid #3399cc !important;
+}
+.Videos:hover{
+  border-bottom: 4px solid #33006d;
+}
+.About:hover{
+  border-bottom: 4px solid #cc3340;
+}
+.Contact:hover{
+  border-bottom: 4px solid #cc3340;
+}
+.Contact{
+  margin-right: 0px !important;
+}
+
+
+@media screen and (max-width: 902px) {
+  .flowColung {
+    flex-flow: column;
+  }
+  .NavLinkUl li p {
+    padding: 8px 18px 8px 8px;
+  }
+  .NavLinkUl {
+    padding: 15px;
+  }
+}
+
+.scale-up-tr {
+  animation: scale-up-tr 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes scale-up-tr {
+  0% {
+    transform: scale(0.5);
+    transform-origin: 100% 0%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 100% 0%;
+  }
+}

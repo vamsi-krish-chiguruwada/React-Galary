@@ -1,11 +1,10 @@
-.galleryWraper{
-    /* min-width: 100vw;
-    min-height: 1000px;
-    background-color: rgb(212, 238, 179); */
+.Gallery{
+    margin-top: 30px;
+}
+
+.imageWraper{
     display: flex;
     justify-content: space-evenly;
-    padding: 16px 0px;
+    padding: 16px 1%;
     flex-wrap: wrap;
-    /* flex-wrap: nowrap; */
-    /* overflow: hidden; */
 }

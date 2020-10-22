@@ -1,16 +1,17 @@
-import React from 'react';
-import './ImageCard.css';
-import sampleImg from "../../Images/img-03.jpg";
-function ImageCard() {
-  return (
+import React from "react";
+import "./ImageCard.css";
 
-    <div className = "imageCard">
-        <figure>
-           <img src = {sampleImg}></img>
-        </figure>
-        <div>
-            <p>hello</p>
-        </div>
+function ImageCard(props) {
+  console.log(props.sampleImg);
+  return (
+    <div className="imageCard">
+      <figure>
+        <img src={require("../../Images/"+props.sampleImg+".jpg")}></img>
+      </figure>
+      <div className="dateLikeHolder">
+        <p className="date">{Math.round(Math.random() * 30)} Feb 2020 </p>
+        <p className="views">views: {Math.round(Math.random() * 1000)}</p>
+      </div>
     </div>
   );
 }

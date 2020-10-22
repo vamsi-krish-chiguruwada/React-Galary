@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
-import Searchbox from "./Components/Searchbox/Searchbox";
-import Gallery from "./Components/Gallery/Gallery"
+import SearchArea from "./Components/SearchArea/SearchArea";
+import Gallery from "./Components/Gallery/Gallery";
+
 function App() {
   return (
     <div>
       <Navbar/>
-      <Searchbox/> 
+      <SearchArea/> 
       <Gallery/>     
 
     </div>
@@ -15,3 +16,22 @@ function App() {
 }
 
 export default App;
+
+/*
+
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div>
+      
+    </div>
+  );
+}
+
+export default App;
+
+
+
+*/

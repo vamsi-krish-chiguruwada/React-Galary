@@ -1,0 +1,18 @@
+.nav-IconHolder {
+    height: 38px;
+    margin-right: 16px;
+    padding: 5px 0px;
+    font-size: 1.6rem;
+    color: #3399cc;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+  }
+  .nav-IconHolder:hover {
+    color: #009999;
+  }
+  
+.fa-film {
+    font-size: 2rem;
+    margin-right: 16px;
+  }

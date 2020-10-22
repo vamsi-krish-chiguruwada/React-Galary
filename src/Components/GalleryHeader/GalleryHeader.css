@@ -1,0 +1,30 @@
+.galleryHeader{
+    width:98%;
+    height:46px;
+    margin:0px auto 24px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #009999;
+
+}
+.galleryHeader h2{
+    font-size: 2rem;
+}
+.galleryHeader form{
+    display: flex;
+}
+
+
+.galleryHeaderInput {
+    width: 34px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    /* background-color: #009999; */
+    margin: 0px 5px;
+    border: 1px solid #CCCCCC;
+    background-color: #f4f4f4;
+    color: #009999;
+
+}
