@@ -3,13 +3,15 @@ import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
 import SearchArea from "./Components/SearchArea/SearchArea";
 import Gallery from "./Components/Gallery/Gallery";
+import GalleryNavigationBtn from "./Components/GalleryNavigationBtn/GalleryNavigationBtn";
 
 function App() {
   return (
     <div>
       <Navbar/>
       <SearchArea/> 
-      <Gallery/>     
+      <Gallery/>  
+      <GalleryNavigationBtn/>   
 
     </div>
   );
@@ -20,9 +22,9 @@ export default App;
 /*
 
 import React from 'react';
-import './App.css';
+import './GalleryNavigationBtn.css';
 
-function App() {
+function GalleryNavigationBtn() {
   return (
     <div>
       
@@ -30,7 +32,7 @@ function App() {
   );
 }
 
-export default App;
+export default GalleryNavigationBtn;
 
 
 

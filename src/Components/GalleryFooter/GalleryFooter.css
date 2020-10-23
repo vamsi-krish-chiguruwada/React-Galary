@@ -1,0 +1,15 @@
+.galleryFooter {
+  width: 98%;
+  height: 60px;
+  margin: 0px auto 24px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #009999;
+}
+.PageNumHolder{
+    display: flex;
+    justify-content: space-evenly;
+    width:30%;
+    overflow-x: scroll;
+}

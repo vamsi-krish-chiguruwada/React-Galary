@@ -1,0 +1,35 @@
+.galleryNavigationBtn {
+  background-color: #009999;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.squreBtn {
+  width: 60px;
+  height: 60px;
+  color: #999;
+  background-color: #EEEEEE;
+}
+.nextBtn {
+  /* padding: 12px 50px 14px; */
+  /* display: inline-block; */
+  width: 170px;
+  height: 60px;
+}
+#activeBtn{
+    background-color: #009999;
+    color: white;
+
+}
+.noCursor {
+  cursor: not-allowed;
+  background-color: #5abdbd;
+}
+/* .galleryNavigationBtn p{
+    padding: 12px 50px 14px 50px;
+
+} */
