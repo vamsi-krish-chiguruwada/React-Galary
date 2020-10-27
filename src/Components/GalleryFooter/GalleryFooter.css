@@ -13,3 +13,23 @@
     width:30%;
     overflow-x: scroll;
 }
+
+@media screen and (max-width:100px){
+  .PageNumHolder{
+  
+    width: 50%;
+    }
+}
+
+@media screen and (max-width:720px){
+  .galleryFooter {
+    flex-direction: column;
+    height: auto;
+    row-gap: 10px;
+  }
+  .PageNumHolder{
+  
+  width: 60%;
+  }
+}
+

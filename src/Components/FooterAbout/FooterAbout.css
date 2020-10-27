@@ -1,0 +1,14 @@
+.footerContentLeft{
+    width:50%;
+    height: 170px;
+    /* padding: 0px 48px 0px 0px; */
+/* margin-bottom: 48px; */
+}
+
+@media screen and (max-width: 1166px) {
+    .footerContentLeft{
+        width:100%;
+      
+    }
+
+}

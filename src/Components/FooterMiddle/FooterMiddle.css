@@ -1,0 +1,27 @@
+.footerContentMiddle{
+    width:166px;
+    height: 170px;
+    /* padding: 0px 48px; */
+    /* margin-bottom: 48px; */
+}
+.footerHeader{
+    color: #009999;
+    font-size:1.4rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+
+}
+.footerMidLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footerMidLinks a{
+    display: block;
+    color: #999;
+    text-decoration: none;
+}.footerMidLinks a:hover{
+    /* display: block; */
+    color: #009999;
+    /* text-decoration: none; */
+}

@@ -14,9 +14,11 @@
   color: #999;
   background-color: #EEEEEE;
 }
+.squreBtn:hover{
+  background-color: #009999;
+color: white;
+}
 .nextBtn {
-  /* padding: 12px 50px 14px; */
-  /* display: inline-block; */
   width: 170px;
   height: 60px;
 }
@@ -29,7 +31,4 @@
   cursor: not-allowed;
   background-color: #5abdbd;
 }
-/* .galleryNavigationBtn p{
-    padding: 12px 50px 14px 50px;
 
-} */

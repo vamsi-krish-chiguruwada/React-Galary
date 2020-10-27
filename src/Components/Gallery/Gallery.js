@@ -46,21 +46,11 @@ const handleGInputChange = (e)=>{
 }
   const handleGInputSubmit = (e) => {
     e.preventDefault();
-    // let temp = e.target.value;
-    // console.log(temp);
+  
     if (curentHeaderInput > 0 && curentHeaderInput <= noOfPages) {
       setCurentPage(curentHeaderInput);
-      // setCurentPage(per);
-
     }
-    // setcurentHeaderInput(e.target.value);
-    // let temp = e.target.value;
-    // if (typeof temp === "number" || temp === "") {
-    //   setCurentPage(temp);
-    // }
-
-    // if (curentHeaderInput > 0 && curentHeaderInput < noOfPages) {
-    // }
+   
   };
 
   return (

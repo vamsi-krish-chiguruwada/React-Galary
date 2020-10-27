@@ -1,0 +1,41 @@
+.Footer {
+  height: 255px0;
+  padding: 48px 0px 16px 0px;
+  color: #999;
+  background-color: #eeeeee;
+}
+
+.footerContent {
+    width: 80%;
+    margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerContent1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footerLinksHolder {
+    width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerAuthor {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1166px) {
+   
+.footerLinksHolder {
+    width: 100%;
+  justify-content: space-between;
+}
+
+}
